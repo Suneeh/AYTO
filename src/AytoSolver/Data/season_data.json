@@ -1,0 +1,93 @@
+{
+  "season": "2026",
+  "men": [
+    "Chris",
+    "Ema",
+    "Evi",
+    "Jeronymo",
+    "Jerry",
+    "Julian M",
+    "Julian S",
+    "Luke",
+    "Meji",
+    "Noel"
+  ],
+  "women": [
+    "Adrianna",
+    "Alicia",
+    "Aurora",
+    "Elena",
+    "Ella",
+    "Laura",
+    "Linda",
+    "Marla",
+    "Michelle",
+    "Tiziana",
+    "Tonia"
+  ],
+  "matchboxResults": [
+    {
+      "woman": "Tiziana",
+      "man": "Evi",
+      "result": "NoMatch"
+    },
+    {
+      "woman": "Linda",
+      "man": "Julian S",
+      "result": "NoMatch"
+    }
+  ],
+  "matchingNights": [
+    {
+      "nightNumber": 1,
+      "lights": 3,
+      "sitsOut": "Alicia",
+      "pairs": [
+        { "woman": "Aurora", "man": "Julian S" },
+        { "woman": "Adrianna", "man": "Julian M" },
+        { "woman": "Elena", "man": "Jerry" },
+        { "woman": "Tiziana", "man": "Jeronymo" },
+        { "woman": "Marla", "man": "Luke" },
+        { "woman": "Tonia", "man": "Noel" },
+        { "woman": "Michelle", "man": "Ema" },
+        { "woman": "Laura", "man": "Evi" },
+        { "woman": "Ella", "man": "Meji" },
+        { "woman": "Linda", "man": "Chris" }
+      ]
+    },
+    {
+      "nightNumber": 2,
+      "lights": 2,
+      "sitsOut": "Aurora",
+      "pairs": [
+        { "woman": "Tonia", "man": "Chris" },
+        { "woman": "Tiziana", "man": "Jeronymo" },
+        { "woman": "Adrianna", "man": "Julian S" },
+        { "woman": "Ella", "man": "Ema" },
+        { "woman": "Alicia", "man": "Julian M" },
+        { "woman": "Linda", "man": "Noel" },
+        { "woman": "Elena", "man": "Meji" },
+        { "woman": "Marla", "man": "Luke" },
+        { "woman": "Michelle", "man": "Jerry" },
+        { "woman": "Laura", "man": "Evi" }
+      ]
+    },
+    {
+      "nightNumber": 3,
+      "lights": 2,
+      "sitsOut": "Ella",
+      "pairs": [
+        { "woman": "Marla", "man": "Luke" },
+        { "woman": "Alicia", "man": "Julian S" },
+        { "woman": "Adrianna", "man": "Julian M" },
+        { "woman": "Tonia", "man": "Noel" },
+        { "woman": "Aurora", "man": "Jerry" },
+        { "woman": "Elena", "man": "Meji" },
+        { "woman": "Linda", "man": "Chris" },
+        { "woman": "Laura", "man": "Evi" },
+        { "woman": "Tiziana", "man": "Jeronymo" },
+        { "woman": "Michelle", "man": "Ema" }
+      ]
+    }
+  ]
+}
