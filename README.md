@@ -47,8 +47,8 @@ ayto/
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd ayto
+git clone https://github.com/Suneeh/AYTO
+cd AYTO
 ```
 
 2. Restore dependencies:
@@ -88,8 +88,7 @@ Edit `src/AytoSolver/Data/season_data.json` with your season data:
 ### Running the Solver
 
 ```bash
-cd src/AytoSolver
-dotnet run
+dotnet run --project src/AytoSolver
 ```
 
 ### Menu Options
@@ -121,7 +120,6 @@ P(Man, Woman) = Count(Man, Woman in valid configs) / Total valid configs
 ## Running Tests
 
 ```bash
-cd tests/AytoSolver.Tests
 dotnet test
 ```
 
