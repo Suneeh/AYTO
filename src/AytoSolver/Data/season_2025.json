@@ -1,0 +1,235 @@
+{
+  "season": "2025",
+  "men": [
+    "Danish",
+    "Dino",
+    "Dion",
+    "Enes",
+    "Josh",
+    "Joshua",
+    "Kaan",
+    "Levin",
+    "Sinan",
+    "Tano"
+  ],
+  "women": [
+    "Anna",
+    "Camelia",
+    "Chiara",
+    "Deisy",
+    "Ina",
+    "Joanna",
+    "Nadja",
+    "Nasti",
+    "Selina",
+    "Sophia",
+    "Tori"
+  ],
+  "matchboxResults": [
+    {
+      "woman": "Anna",
+      "man": "Josh",
+      "result": "NoMatch"
+    },
+    {
+      "woman": "Ina",
+      "man": "Sinan",
+      "result": "NoMatch"
+    },
+    {
+      "woman": "Nadja",
+      "man": "Danish",
+      "result": "PerfectMatch"
+    },
+    {
+      "woman": "Deisy",
+      "man": "Dino",
+      "result": "PerfectMatch"
+    },
+    {
+      "woman": "Sophia",
+      "man": "Kaan",
+      "result": "NoMatch"
+    },
+    {
+      "woman": "Joanna",
+      "man": "Joshua",
+      "result": "NoMatch"
+    },
+    {
+      "woman": "Nasti",
+      "man": "Sinan",
+      "result": "PerfectMatch"
+    },
+    {
+      "woman": "Camelia",
+      "man": "Josh",
+      "result": "PerfectMatch"
+    }
+  ],
+  "matchingNights": [
+    {
+      "nightNumber": 1,
+      "lights": 2,
+      "sitsOut": "Nasti",
+      "pairs": [
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Ina", "man": "Sinan" },
+        { "woman": "Joanna", "man": "Kaan" },
+        { "woman": "Tori", "man": "Dion" },
+        { "woman": "Anna", "man": "Enes" },
+        { "woman": "Sophia", "man": "Danish" },
+        { "woman": "Selina", "man": "Joshua" },
+        { "woman": "Camelia", "man": "Levin" },
+        { "woman": "Nadja", "man": "Josh" },
+        { "woman": "Chiara", "man": "Tano" }
+      ]
+    },
+    {
+      "nightNumber": 2,
+      "lights": 3,
+      "pairs": [
+        { "woman": "Nadja", "man": "Josh" },
+        { "woman": "Anna", "man": "Kaan" },
+        { "woman": "Chiara", "man": "Levin" },
+        { "woman": "Camelia", "man": "Danish" },
+        { "woman": "Nasti", "man": "Enes" },
+        { "woman": "Tori", "man": "Tano" },
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Joanna", "man": "Joshua" },
+        { "woman": "Ina", "man": "Sinan" },
+        { "woman": "Selina", "man": "Dion" }
+      ]
+    },
+    {
+      "nightNumber": 3,
+      "lights": 4,
+      "pairs": [
+        { "woman": "Joanna", "man": "Joshua" },
+        { "woman": "Chiara", "man": "Dion" },
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Anna", "man": "Kaan" },
+        { "woman": "Camelia", "man": "Levin" },
+        { "woman": "Tori", "man": "Tano" },
+        { "woman": "Nadja", "man": "Josh" },
+        { "woman": "Selina", "man": "Enes" },
+        { "woman": "Nasti", "man": "Sinan" },
+        { "woman": "Sophia", "man": "Danish" }
+      ]
+    },
+    {
+      "nightNumber": 4,
+      "lights": 4,
+      "pairs": [
+        { "woman": "Selina", "man": "Enes" },
+        { "woman": "Camelia", "man": "Levin" },
+        { "woman": "Tori", "man": "Tano" },
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Ina", "man": "Josh" },
+        { "woman": "Nasti", "man": "Dion" },
+        { "woman": "Sophia", "man": "Sinan" },
+        { "woman": "Anna", "man": "Kaan" },
+        { "woman": "Joanna", "man": "Joshua" },
+        { "woman": "Nadja", "man": "Danish" }
+      ]
+    },
+    {
+      "nightNumber": 5,
+      "lights": 4,
+      "pairs": [
+        { "woman": "Nasti", "man": "Sinan" },
+        { "woman": "Joanna", "man": "Joshua" },
+        { "woman": "Ina", "man": "Josh" },
+        { "woman": "Tori", "man": "Tano" },
+        { "woman": "Sophia", "man": "Kaan" },
+        { "woman": "Selina", "man": "Enes" },
+        { "woman": "Chiara", "man": "Dion" },
+        { "woman": "Camelia", "man": "Levin" },
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Nadja", "man": "Danish" }
+      ]
+    }
+    ,
+    {
+      "nightNumber": 6,
+      "lights": 5,
+      "pairs": [
+        { "woman": "Anna", "man": "Dion" },
+        { "woman": "Chiara", "man": "Levin" },
+        { "woman": "Nasti", "man": "Josh" },
+        { "woman": "Camelia", "man": "Sinan" },
+        { "woman": "Sophia", "man": "Kaan" },
+        { "woman": "Tori", "man": "Tano" },
+        { "woman": "Selina", "man": "Enes" },
+        { "woman": "Ina", "man": "Joshua" },
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Nadja", "man": "Danish" }
+      ]
+    },
+    {
+      "nightNumber": 7,
+      "lights": 6,
+      "pairs": [
+        { "woman": "Selina", "man": "Kaan" },
+        { "woman": "Joanna", "man": "Joshua" },
+        { "woman": "Chiara", "man": "Levin" },
+        { "woman": "Camelia", "man": "Josh" },
+        { "woman": "Sophia", "man": "Enes" },
+        { "woman": "Nasti", "man": "Sinan" },
+        { "woman": "Tori", "man": "Dion" },
+        { "woman": "Anna", "man": "Tano" },
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Nadja", "man": "Danish" }
+      ]
+    },
+    {
+      "nightNumber": 8,
+      "lights": 5,
+      "pairs": [
+        { "woman": "Anna", "man": "Joshua" },
+        { "woman": "Camelia", "man": "Josh" },
+        { "woman": "Sophia", "man": "Enes" },
+        { "woman": "Ina", "man": "Levin" },
+        { "woman": "Selina", "man": "Kaan" },
+        { "woman": "Chiara", "man": "Dion" },
+        { "woman": "Nasti", "man": "Sinan" },
+        { "woman": "Joanna", "man": "Tano" },
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Nadja", "man": "Danish" }
+      ]
+    },
+    {
+      "nightNumber": 9,
+      "lights": 7,
+      "pairs": [
+        { "woman": "Sophia", "man": "Dion" },
+        { "woman": "Joanna", "man": "Tano" },
+        { "woman": "Tori", "man": "Joshua" },
+        { "woman": "Anna", "man": "Kaan" },
+        { "woman": "Chiara", "man": "Levin" },
+        { "woman": "Camelia", "man": "Josh" },
+        { "woman": "Ina", "man": "Enes" },
+        { "woman": "Nasti", "man": "Sinan" },
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Nadja", "man": "Danish" }
+      ]
+    },
+    {
+      "nightNumber": 10,
+      "lights": 10,
+      "sitsOut": "Sophia",
+      "pairs": [
+        { "woman": "Joanna", "man": "Tano" },
+        { "woman": "Chiara", "man": "Levin" },
+        { "woman": "Anna", "man": "Kaan" },
+        { "woman": "Selina", "man": "Enes" },
+        { "woman": "Tori", "man": "Dion" },
+        { "woman": "Ina", "man": "Joshua" },
+        { "woman": "Camelia", "man": "Josh" },
+        { "woman": "Nasti", "man": "Sinan" },
+        { "woman": "Deisy", "man": "Dino" },
+        { "woman": "Nadja", "man": "Danish" }
+      ]
+    }
+  ]
+}

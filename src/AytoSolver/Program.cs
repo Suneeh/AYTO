@@ -7,7 +7,7 @@ namespace AytoSolver;
 
 public class Program
 {
-    private static readonly string JsonPath = Path.Combine(AppContext.BaseDirectory, "Data", "season_data.json");
+    private static string? _jsonPath;
 
     // In-memory state
     private static byte[][]? _permutations;
@@ -20,10 +20,18 @@ public class Program
 
         PrintBanner();
 
-        if (!File.Exists(JsonPath))
+        // Season selection
+        _jsonPath = SelectSeason();
+        if (_jsonPath == null)
+        {
+            Console.WriteLine("  Bye! 👋");
+            return;
+        }
+
+        if (!File.Exists(_jsonPath))
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine($"  ERROR: season_data.json not found at: {JsonPath}");
+            Console.WriteLine($"  ERROR: Season file not found at: {_jsonPath}");
             Console.ResetColor();
             return;
         }
@@ -77,6 +85,30 @@ public class Program
         Console.WriteLine();
     }
 
+    private static string? SelectSeason()
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("  ┌─────────────────────────────────┐");
+        Console.WriteLine("  │  Select Season:                 │");
+        Console.WriteLine("  │  1 │ Season 2025                │");
+        Console.WriteLine("  │  2 │ Season 2026                │");
+        Console.WriteLine("  │  0 │ Exit                       │");
+        Console.WriteLine("  └─────────────────────────────────┘");
+        Console.ResetColor();
+        Console.Write("  > ");
+
+        var input = Console.ReadLine()?.Trim();
+        Console.WriteLine();
+
+        return input switch
+        {
+            "1" => Path.Combine(AppContext.BaseDirectory, "Data", "season_2025.json"),
+            "2" => Path.Combine(AppContext.BaseDirectory, "Data", "season_2026.json"),
+            "0" => null,
+            _ => SelectSeason() // Recursive call for invalid input
+        };
+    }
+
     private static void PrintMenu()
     {
         Console.ForegroundColor = ConsoleColor.Yellow;
@@ -94,9 +126,9 @@ public class Program
 
     private static SeasonData LoadSeasonData()
     {
-        var json = File.ReadAllText(JsonPath);
+        var json = File.ReadAllText(_jsonPath!);
         return JsonSerializer.Deserialize<SeasonData>(json)
-               ?? throw new InvalidOperationException("Failed to deserialize season_data.json");
+               ?? throw new InvalidOperationException("Failed to deserialize season data file");
     }
 
     private static void Generate()

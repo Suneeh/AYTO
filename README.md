@@ -26,7 +26,8 @@ ayto/
 ├── src/
 │   └── AytoSolver/
 │       ├── Data/
-│       │   └── season_data.json      # Season configuration and results
+│       │   ├── season_2025.json      # Season 2025 data
+│       │   └── season_2026.json      # Season 2026 data
 │       ├── Models/
 │       │   └── SeasonData.cs         # Data models
 │       ├── Services/
@@ -58,7 +59,11 @@ dotnet restore
 
 ### Configuration
 
-Edit `src/AytoSolver/Data/season_data.json` with your season data:
+The solver comes with data for two seasons:
+- `src/AytoSolver/Data/season_2025.json` - Season 2025 data
+- `src/AytoSolver/Data/season_2026.json` - Season 2026 data
+
+You can edit either file or add new season files with the following structure:
 
 ```json
 {
@@ -90,6 +95,11 @@ Edit `src/AytoSolver/Data/season_data.json` with your season data:
 ```bash
 dotnet run --project src/AytoSolver
 ```
+
+When you start the application, you'll be prompted to select which season to analyze:
+- **1** - Season 2025
+- **2** - Season 2026
+- **0** - Exit
 
 ### Menu Options
 
