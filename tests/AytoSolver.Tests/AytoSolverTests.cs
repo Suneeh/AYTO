@@ -6,18 +6,14 @@ namespace AytoSolver.Tests;
 
 public class AytoSolverTests
 {
-    private readonly SeasonData _mockSeason;
-
-    public AytoSolverTests()
+    private readonly SeasonData _mockSeason = new()
     {
-        // Setup 4 men and 5 women (M5 is dummy "Nobody")
-        _mockSeason = new SeasonData
-        {
-            Season = "TestSet",
-            Men = ["M1", "M2", "M3", "M4"],
-            Women = ["W1", "W2", "W3", "W4", "W5"]
-        };
-    }
+        Season = "TestSet",
+        Men = ["M1", "M2", "M3", "M4"],
+        Women = ["W1", "W2", "W3", "W4", "W5"]
+    };
+
+    // Setup 4 men and 5 women (M5 is dummy "Nobody")
 
     [Fact]
     public void PermutationGenerator_GeneratesCorrectCountForSmallSet()

@@ -40,6 +40,11 @@
       "woman": "Marla",
       "man": "Julian M",
       "result": "PerfectMatch"
+    },
+    {
+      "woman": "Chris",
+      "man": "Aurora",
+      "result": ""
     }
   ],
   "matchingNights": [
@@ -92,23 +97,6 @@
         { "woman": "Laura", "man": "Evi" },
         { "woman": "Tiziana", "man": "Jeronymo" },
         { "woman": "Michelle", "man": "Ema" }
-      ]
-    },
-    {
-      "nightNumber": 4,
-      "lights": 1,
-      "sitsOut": "Tiziana",
-      "pairs": [
-        { "woman": "Aurora", "man":  "Chris"},
-        { "woman": "Tonia", "man":  "Luke"},
-        { "woman": "Laura", "man":  "Meji"},
-        { "woman": "Elena", "man":  "Jerry"},
-        { "woman": "Ella", "man":  "Evi"},
-        { "woman": "Alicia", "man":  "Julian S"},
-        { "woman": "Michelle", "man":  "Ema"},
-        { "woman": "Linda", "man":  "Jeronymo"},
-        { "woman": "Adrianna", "man":  "Noel"},
-        { "woman": "Marla", "man":  "Julian M"}
       ]
     }
   ]
