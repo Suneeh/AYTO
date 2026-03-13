@@ -55,6 +55,11 @@
       "woman": "Tonia",
       "man": "Noel",
       "result": "PerfectMatch"
+    },
+    {
+      "woman": "Michelle",
+      "man": "Ema",
+      "result": "NoMatch"
     }
   ],
   "matchingNights": [
